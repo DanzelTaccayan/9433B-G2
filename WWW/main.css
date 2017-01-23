@@ -24,16 +24,20 @@ body {
     font-size:15x; 
 }
 img {
-    position: absolute;
+    /*position: absolute;
     height:339px;
     left: -70px;
     top: -60px;
-    z-index: -3;
+    z-index: -3;*/
+    position: absolute;
+     height:339px;
+    top: 100px; bottom:0; left: 0; right:0;
+    margin: auto;
 }
 #menubar {
     width:900px;
-    height:70px;
-    padding-top:30px;
+    height:50px;
+    padding-top: 45px;
     padding-left:270px; 
 }
 
@@ -94,6 +98,7 @@ ul#menu li a {
     color: #FFF;
     text-decoration: none;
     background: transparent;
+    
 }
 #footer {
 	position:fixed;
