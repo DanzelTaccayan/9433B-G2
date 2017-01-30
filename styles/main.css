@@ -104,7 +104,61 @@ ul#menu li a {
 	background:#333;
 	padding:8px;
 }
-
+#intro {
+    color: #086490; 
+    font-family: "Great Vibes"; 
+    font-size: 80px; 
+    line-height: 140px; 
+    font-weight: normal; 
+    margin-bottom: 0px; 
+    margin-top: 20px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+}
+#summary p {
+  clear: right;
+  color: #dd3b2a;
+  float: right;
+  font-style: italic;
+  margin: 0;
+  width: 300px;
+}
+#mission{
+  clear: left;
+  float: left;
+  left: 50%;
+  margin-left: -520px;
+  max-width: 495px;
+  position: relative;
+  top: 298px;
+  width: 50%;
+  z-index: 4;
+}
+#mission h2, #vision h2, #core h2{
+    color: #dd3b2a;
+}
+#vision {
+    clear: right;
+    float: right;
+    right: 50%;
+    margin-right: -520px;
+    max-width: 495px;
+    position: relative;
+    top: 400px;
+    width: 50%;
+    z-index: 4;
+}
+#core {
+  clear: left;
+  float: left;
+  left: 50%;
+  margin-left: -520px;
+  max-width: 495px;
+  position: relative;
+  top: 460px;
+  width: 50%;
+  z-index: 4;
+}
 
 
 
