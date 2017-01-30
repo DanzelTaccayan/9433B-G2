@@ -4,7 +4,12 @@ html {height:100%;}
     padding:0;
 }
 body {
-	background-color: #CCC;
+    background-color:#CCC;
+	background-image:url('/Images/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:50% 65%;
+    background-position: center;
 	margin:80px 80px 100px 100px;
     font-family: "Lato", sans-serif;
 }
