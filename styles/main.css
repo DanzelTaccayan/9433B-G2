@@ -130,11 +130,11 @@ ul#menu li a {
   margin-left: -520px;
   max-width: 495px;
   position: relative;
-  top: 298px;
+  top: 200px;
   width: 50%;
   z-index: 4;
 }
-#mission h2, #vision h2, #core h2{
+#mission h2, #vision h2, #core h2, #join h2{
     color: #dd3b2a;
 }
 #vision {
@@ -144,7 +144,7 @@ ul#menu li a {
     margin-right: -520px;
     max-width: 495px;
     position: relative;
-    top: 400px;
+    top: 300px;
     width: 50%;
     z-index: 4;
 }
@@ -155,9 +155,20 @@ ul#menu li a {
   margin-left: -520px;
   max-width: 495px;
   position: relative;
-  top: 460px;
+  top: 350px;
   width: 50%;
   z-index: 4;
+}
+#join {
+  clear: right;
+    float: right;
+    right: 50%;
+    margin-right: -520px;
+    max-width: 495px;
+    position: relative;
+    top: 400px;
+    width: 50%;
+    z-index: 4
 }
 
 
