@@ -9,6 +9,7 @@ html{
 
 h3{
     font-family: cursive;
+    text-align: center;
     font-size: 30px;
     color: black;
 }
@@ -100,8 +101,22 @@ nav li img {
 }
 
 #care {
+    width: 100%;
+    height: 500px;
     background-image: url(images/pic1.jpg);
-    background-size: 100%, 400px;
+    background-size: 100%, 1000px;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hound{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/pic2.jpg);
+    background-size: 100%, 1000px;
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -115,12 +130,10 @@ nav li img {
 
 #vision img{
 	border-radius: 50%;
-	height:20%;
-	width:20%;
+	height:15%;
+	width:18%;
 	float:right;
-    width: 220px;
-    height: 300px;
-    
+  
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -129,8 +142,8 @@ nav li img {
 }
 
 #vision img:hover{
-    width: 240px;
-    height: 320px;
+    width:20%;
+    height: 18%;
 }
 
 #vision p, #vision h2{
