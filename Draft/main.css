@@ -192,6 +192,12 @@ nav li img {
 
 }
 
+#gallery{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #DCB579;
+}
+
 #footer{
   
 	bottom:0px;
