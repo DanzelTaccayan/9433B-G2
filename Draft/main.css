@@ -66,6 +66,10 @@ nav li img {
 	text-shadow: 1px 1px 0px #283744;
 }
 
+#about {
+    padding: 50px 80px;
+}
+
 #mission{
 	padding: 50px 80px;
 }
