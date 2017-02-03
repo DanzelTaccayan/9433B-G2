@@ -44,6 +44,7 @@ nav{
 	height:40px;
     width:100%;
     position:relative;
+    background-color: #DCB579;
 }
 
 nav ul {
@@ -69,12 +70,12 @@ nav li img {
 
 #about {
     padding: 50px 80px;
-    background-color: #461F00;
+    background-color: #DCB579;
 }
 
 #mission{
 	padding: 50px 80px;
-    background-color: #461F00;
+    background-color: #DCB579;
 }
 
 #mission img{
@@ -128,7 +129,7 @@ nav li img {
 
 #vision {
 	padding: 50px 80px;
-    background-color: #461F00;
+    background-color: #DCB579;
 }
 
 #vision img{
@@ -161,7 +162,7 @@ nav li img {
 #values{
 	padding: 50px 80px;
 	text-align: center;
-    background-color: #461F00;
+    background-color: #DCB579;
 }
 
 .img-circle {
@@ -177,7 +178,7 @@ nav li img {
 #principle {
     text-align: left;
 	padding: 50px 80px;
-    background-color: #461F00;
+    background-color: #DCB579;
 }
 
 #principle ol{
@@ -187,8 +188,14 @@ nav li img {
 
 #join{
  padding: 50px 80px;
- background-color: #461F00;
+ background-color: #DCB579;
 
+}
+
+#gallery{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #DCB579;
 }
 
 #footer{
