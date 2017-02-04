@@ -145,6 +145,21 @@ nav li img {
     background-color: #DCB579;
 }
 
+#dream {
+    padding: 50px 80px;
+    background-color: #DCB579;
+}
+
+#promote {
+    padding: 50px 80px;
+    background-color: #DCB579;
+}
+
+#promote ul{
+    font-family: "EngraversGothic BT";
+    font-size: 20px;
+}
+
 #vision img{
 	border-radius: 50%;
 	height:15%;
@@ -218,13 +233,12 @@ nav li img {
 }
 
 #footer{
-  
 	bottom:0px;
 	left:0px;
 	width:100%;
 	color: #D3D3D3;
 	background-color: black;
-	padding:8px;
+	
 }
 #footer a{
     color: floralwhite;
