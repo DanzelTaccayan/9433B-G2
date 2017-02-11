@@ -23,10 +23,20 @@ html {
     height: 100%;
 }
 
+body {
+    
+    min-height: 100%;
+    height: 100%
+    
+    
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
 
 h1 {
     
@@ -78,12 +88,14 @@ nav:after {
 
 nav {
     position: fixed;
-    height: 10%;
-    width: 88%;
+    height: 100%;
+    min-height: 100%;
+    width: 83%;
     position: relative;
-    background-color: #DCB579;
-    padding: 0 0 1% 12%;
-    background-image: url(images/pic1.jpg);
+    padding:  1% 0 1% 17%;
+    background-image: url(../images/ANIMALTALKSBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
 }
 
@@ -131,14 +143,16 @@ nav li img {
     height: 30%;
     width: 30%;
     float: left;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
+    padding-left: 8%;
 }
 
 
 #mission p,
 #mission h2 {
     margin-left: 35%;
+    padding-right: 11%;
     text-align: justify;
 }
 
@@ -187,12 +201,13 @@ nav li img {
 
 #dream {
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #F7882F;
 }
 
 #promote {
     padding: 50px 80px;
     background-color: #DCB579;
+    
 }
 
 #promote ul {
@@ -203,14 +218,14 @@ nav li img {
 #vision img {
     width: 30%;
     float: right;
-    width: 300px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
 }
 
 #vision p,
 #vision h2 {
     text-align: right;
-    margin-right: 25%
+    padding-left: 17%;
 }
 
 #vision h2 {
@@ -220,13 +235,13 @@ nav li img {
 #values {
     padding: 50px 80px;
     text-align: center;
-    background-color: #DCB579;
+    background-color: #DCC7AA;
 }
 
 #wecare {
     padding: 50px 80px;
     text-align: center;
-    background-color: #DCB579;
+    background-color: #F7882F;
 }
 
 .img-circle {
@@ -242,46 +257,47 @@ nav li img {
 #principle {
     text-align: left;
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #F7C331;
 }
 
 #principle ul {
     font-family: "SF_Cartoonist_Hand";
     font-size: 20px;
+    margin: 0 0 0 3%
 }
 
 #join {
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #DCF0F7;
 }
 
 #gallery {
     text-align: center;
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #DCC7AA;
 }
 
 footer {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    color: #D3D3D3;
-    background-color: black;
+    color: black;
+    background-color: #6B7C8E;
     font-family: OstrichSans-Heavy;
     text-align: center;
 }
 
-footer a {
-    color: floralwhite;
+footer a{
+    color: black;
     text-decoration: none;
     
 }
 
 #about-us {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: inline-block;
-    background-color: #DCB579;
+    background-color: #F7C331;
     margin: 0 0 0 0;
 }
 
@@ -349,7 +365,6 @@ footer a {
 }
 
 #about-us h2 {
-    background-color: #DCB579;
     text-align: center;
     margin: 0 0 3% 0;
 }
