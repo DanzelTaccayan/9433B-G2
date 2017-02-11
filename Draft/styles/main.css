@@ -1,26 +1,9 @@
 @font-face {
-    font-family: OstrichSans-Bold;
-    src: url(../fonts/OstrichSans-Bold.otf);
-    
-}
-
-@font-face {
     font-family: OstrichSans-Black;
     src: url(../fonts/OstrichSans-Black.otf);
     
 }
 
-@font-face {
-    font-family: OstrichSans-Light;
-    src: url(../fonts/OstrichSans-Light.otf);
-    
-}
-
-@font-face {
-    font-family: OstrichSans-Heavy;
-    src: url(../fonts/OstrichSans-Heavy.otf);
-    
-}
 @font-face {
     font-family: SF_Cartoonist_Hand;
     src: url(../fonts/SF_Cartoonist_Hand.ttf);
@@ -29,6 +12,10 @@
 @font-face {
     font-family: TooneyNoodleNF;
     src: url(../fonts/TooneyNoodleNF.ttf);
+}
+@font-face{
+    font-family: organique;
+    src: url(../fonts/organique.otf);
 }
 
 html {
@@ -43,7 +30,7 @@ html {
 
 h1 {
     
-font-family: "OstrichSans-Black";
+font-family: "organique";
     font-size: 30pt;
     padding-bottom: 2%;
     text-align: center;
@@ -209,7 +196,7 @@ nav li img {
 }
 
 #promote ul {
-    font-family: "OstrichSans-Black";
+    font-family: "SF_Cartoonist_Hand";
     font-size: 20px;
 }
 
