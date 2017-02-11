@@ -1,3 +1,27 @@
+@font-face {
+    font-family: OstrichSans-Bold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+    
+}
+
+@font-face {
+    font-family: OstrichSans-Black;
+    src: url(../fonts/OstrichSans-Black.otf);
+    
+}
+
+@font-face {
+    font-family: OstrichSans-Light;
+    src: url(../fonts/OstrichSans-Light.otf);
+    
+}
+
+@font-face {
+    font-family: OstrichSans-Heavy;
+    src: url(../fonts/OstrichSans-Heavy.otf);
+    
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -8,8 +32,25 @@ html {
     padding: 0;
 }
 
-h3 {
-    font-family: cursive;
+h1 {
+    
+font-family: "OstrichSans-Black";
+    font-size: 30pt;
+    padding-bottom: 2%;
+    text-align: center;
+    
+    
+}
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+
+h2 {
+    font-family: "OstrichSans-Bold";
     text-align: center;
     font-size: 30px;
     color: black;
@@ -17,51 +58,63 @@ h3 {
 
 p {
     font-size: 20px;
-    font-family: "EngraversGothic BT";
+    font-family: "OstrichSans-black";
     color: black;
 }
 
+header {
+    
+    padding: 0 0 0 0;
+}
+
 header video {
-    margin-top: 4%;
+    margin: 0 0 0 0;
     width: 100%;
     height: 100%;
     min-height: 100%;
     min-width: 100%;
+    
+   
 }
 
-.navbar:before,
-.navbar:after {
+nav:before,
+nav:after {
     content: " ";
     display: table;
 }
 
-.navbar:after {
+nav:after {
     clear: both;
 }
 
-.navbar {
-    *zoom: 1;
-}
 
 nav {
     position: fixed;
-    height: 40px;
-    width: 100%;
+    height: 10%;
+    width: 88%;
     position: relative;
     background-color: #DCB579;
+    padding: 0 0 1% 12%;
+    
 }
 
 nav ul {
-    padding: 0;
+    padding: 1.1% 0 0 0;
     margin: 0 auto;
-    width: 600px;
-    height: 70px;
+    width: 100%;
+    height: 40%;
+    
 }
+
 
 nav li {
     display: inline;
     float: left;
+    margin: 0 4% 0 4%;
+    
+    
 }
+
 
 nav li img {
     color: #fff;
@@ -74,8 +127,9 @@ nav li img {
 }
 
 #about {
-    padding: 50px 80px;
+    padding: 5% 8%;
     background-color: #DCB579;
+    margin: 0 0 0 0;
 }
 
 #mission {
@@ -90,17 +144,8 @@ nav li img {
     float: left;
     width: 300px;
     height: 200px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
-#mission img:hover {
-    width: 320px;
-    height: 220px;
-}
 
 #mission p,
 #mission h2 {
@@ -160,7 +205,7 @@ nav li img {
 }
 
 #promote ul {
-    font-family: "EngraversGothic BT";
+    font-family: "OstrichSans-Black";
     font-size: 20px;
 }
 
@@ -169,16 +214,7 @@ nav li img {
     height: 15%;
     width: 18%;
     float: right;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
 
-#vision img:hover {
-    width: 20 %;
-    height: 18%;
 }
 
 #vision p,
@@ -219,8 +255,8 @@ nav li img {
     background-color: #DCB579;
 }
 
-#principle ol {
-    font-family: "EngraversGothic BT";
+#principle ul {
+    font-family: "OstrichSans-Black";
     font-size: 20px;
 }
 
@@ -235,17 +271,20 @@ nav li img {
     background-color: #DCB579;
 }
 
-#footer {
+footer {
     bottom: 0px;
     left: 0px;
     width: 100%;
     color: #D3D3D3;
     background-color: black;
+    font-family: OstrichSans-Heavy;
+    text-align: center;
 }
 
-#footer a {
+footer a {
     color: floralwhite;
     text-decoration: none;
+    
 }
 
 #about-us {
@@ -305,6 +344,14 @@ nav li img {
 .name {
     font-weight: bold;
     text-align: center;
+}
+
+.options {
+
+    color: black;
+    font-family: "OstrichSans-Black";
+    font-size: 20pt;
+    
 }
 
 .role {
