@@ -113,7 +113,6 @@ nav li {
     float: left;
     margin: 0 4% 0 4%;
     
-    
 }
 
 
@@ -125,6 +124,9 @@ nav li img {
     text-decoration: none;
     line-height: 40px;
     text-shadow: 1px 1px 0px #283744;
+}
+nav li a:hover{
+	color:white;
 }
 
 #about {
@@ -248,8 +250,6 @@ nav li img {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1%;
-    margin-right: 10%;
-    margin-left: 10%;
     height: 250px;
     width: 300px;
 }
@@ -276,6 +276,22 @@ nav li img {
     padding: 50px 80px;
     background-color: #DCC7AA;
 }
+
+.table-gallery img:nth-child(1){
+float:left;
+
+}	
+
+.table-gallery img:nth-child(2){
+
+}
+
+
+.table-gallery img:nth-child(3){
+float:right;
+
+}
+
 
 footer {
     bottom: 0px;
