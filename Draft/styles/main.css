@@ -22,8 +22,8 @@
     
 }
 @font-face {
-    font-family: Architex;
-    src: url(../fonts/Architex.ttf);
+    font-family: SF_Cartoonist_Hand;
+    src: url(../fonts/SF_Cartoonist_Hand.ttf);
     
 }
 @font-face {
@@ -67,7 +67,7 @@ h2 {
 
 p {
     font-size: 20px;
-    font-family: "Architex";
+    font-family: "SF_Cartoonist_Hand";
     color: black;
 }
 
