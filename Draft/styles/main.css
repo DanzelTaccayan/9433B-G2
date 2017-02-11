@@ -21,6 +21,15 @@
     src: url(../fonts/OstrichSans-Heavy.otf);
     
 }
+@font-face {
+    font-family: Architex;
+    src: url(../fonts/Architex.ttf);
+    
+}
+@font-face {
+    font-family: TooneyNoodleNF;
+    src: url(../fonts/TooneyNoodleNF.ttf);
+}
 
 html {
     width: 100%;
@@ -50,7 +59,7 @@ a {
 
 
 h2 {
-    font-family: "OstrichSans-Bold";
+    font-family: "TooneyNoodleNF";
     text-align: center;
     font-size: 30px;
     color: black;
@@ -58,7 +67,7 @@ h2 {
 
 p {
     font-size: 20px;
-    font-family: "OstrichSans-black";
+    font-family: "Architex";
     color: black;
 }
 
