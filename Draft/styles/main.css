@@ -134,7 +134,7 @@ nav li img {
 
 #mission {
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #F7C331;
 }
 
 #mission img {
@@ -190,8 +190,10 @@ nav li img {
 }
 
 #vision {
-    padding: 50px 80px;
-    background-color: #DCB579;
+    padding-bottom: 2.3%;
+    padding-left:80px;
+    padding-right:80px;
+    background-color: #F7882F;
 }
 
 #dream {
@@ -210,11 +212,10 @@ nav li img {
 }
 
 #vision img {
-    border-radius: 50%;
-    height: 15%;
-    width: 18%;
+    width: 30%;
     float: right;
-
+    width: 300px;
+    height: 210px;
 }
 
 #vision p,
@@ -224,7 +225,7 @@ nav li img {
 }
 
 #vision h2 {
-    margin-top: 10%
+    padding-top: 5%;
 }
 
 #values {
