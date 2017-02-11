@@ -144,14 +144,16 @@ nav li img {
     height: 30%;
     width: 30%;
     float: left;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
+    padding-left: 8%;
 }
 
 
 #mission p,
 #mission h2 {
     margin-left: 35%;
+    padding-right: 11%;
     text-align: justify;
 }
 
@@ -217,14 +219,14 @@ nav li img {
 #vision img {
     width: 30%;
     float: right;
-    width: 300px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
 }
 
 #vision p,
 #vision h2 {
     text-align: right;
-    margin-right: 25%
+    padding-left: 17%;
 }
 
 #vision h2 {
@@ -234,7 +236,7 @@ nav li img {
 #values {
     padding: 50px 80px;
     text-align: center;
-    background-color: #DCB579;
+    background-color: #F7882F;
 }
 
 #wecare {
@@ -256,7 +258,7 @@ nav li img {
 #principle {
     text-align: left;
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #F7C331;
 }
 
 #principle ul {
