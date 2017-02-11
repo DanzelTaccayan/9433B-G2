@@ -105,7 +105,7 @@ nav {
     min-height: 100%;
     width: 83%;
     position: relative;
-    padding:  1% 12% 1% 17%;
+    padding:  1% 0 1% 17%;
     background-image: url(../images/ANIMALTALKSBackground.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -214,7 +214,7 @@ nav li img {
 
 #dream {
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #F7882F;
 }
 
 #promote {
@@ -248,13 +248,13 @@ nav li img {
 #values {
     padding: 50px 80px;
     text-align: center;
-    background-color: #F7882F;
+    background-color: #DCC7AA;
 }
 
 #wecare {
     padding: 50px 80px;
     text-align: center;
-    background-color: #DCB579;
+    background-color: #F7882F;
 }
 
 .img-circle {
@@ -281,27 +281,27 @@ nav li img {
 
 #join {
     padding: 50px 80px;
-    background-color: #DCB579;
+    background-color: #DCF0F7;
 }
 
 #gallery {
     text-align: center;
     padding: 50px 80px;
-    background-color: #5D5D5D;
+    background-color: #DCC7AA;
 }
 
 footer {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    color: #D3D3D3;
-    background-color: black;
+    color: black;
+    background-color: #6B7C8E;
     font-family: OstrichSans-Heavy;
     text-align: center;
 }
 
-footer a {
-    color: floralwhite;
+footer a{
+    color: black;
     text-decoration: none;
     
 }
@@ -310,7 +310,7 @@ footer a {
     width: 100%;
     height: auto;
     display: inline-block;
-    background-color: #DCB579;
+    background-color: #F7C331;
     margin: 0 0 0 0;
 }
 
@@ -378,7 +378,6 @@ footer a {
 }
 
 #about-us h2 {
-    background-color: #DCB579;
     text-align: center;
     margin: 0 0 3% 0;
 }
