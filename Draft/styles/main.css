@@ -1,21 +1,21 @@
 @font-face {
     font-family: OstrichSans-Black;
-    src: url(../fonts/OstrichSans-Black.otf);
+    src: url(fonts/OstrichSans-Black.otf);
     
 }
 
 @font-face {
     font-family: SF_Cartoonist_Hand;
-    src: url(../fonts/SF_Cartoonist_Hand.ttf);
+    src: url(fonts/SF_Cartoonist_Hand.ttf);
     
 }
 @font-face {
     font-family: TooneyNoodleNF;
-    src: url(../fonts/TooneyNoodleNF.ttf);
+    src: url(fonts/TooneyNoodleNF.ttf);
 }
 @font-face{
     font-family: organique;
-    src: url(../fonts/organique.otf);
+    src: url(fonts/organique.otf);
 }
 
 html {
