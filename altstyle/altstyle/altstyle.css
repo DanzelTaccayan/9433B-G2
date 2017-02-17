@@ -1,0 +1,213 @@
+*{
+    margin-left:auto;
+    margin-right:auto;
+}
+body{
+    background-color: #F5F4F2;
+    margin:0;
+}
+p {
+    text-align:justify;
+}
+nav:before,
+nav:after {
+    content: " ";
+    display: table;
+}
+
+nav:after {
+    clear: both;
+}
+
+
+nav {
+    margin-top: 4%;
+    position:relative;
+    height: 500px;
+    min-height: 100%;
+    width: 100%;
+    padding:  1% 0 1% 0;
+    background-image: url('images/LUDA.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+nav ul {
+    background-color: #6B7A8F;
+    top:0;
+    position: fixed;
+    padding: 1.1% 0 0 15%;
+    margin: 0 auto;
+    width: 100%;
+    height: 6%;
+    
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    color: #F7882F;
+    text-decoration: none;
+    
+}
+
+nav ul li:nth-child(3){
+    content: url(images/logo3.png);  
+}
+nav ul li:nth-child(3):hover{
+    transform: scale(2);
+}
+
+nav li {
+    display: inline;
+    float: left;
+    margin: 0 4% 0 4%;
+}
+
+/*div#about{
+    
+}*/
+
+#greeting {
+    text-align:center;
+}
+#about-animal{
+    text-align:center;
+}
+#about-content{
+    margin-top:-1%;
+    text-align:center;
+}
+#mission{
+    float:left;       
+    width:50%;
+    height:50%;
+    background-color:aliceblue;
+    border-radius:25px;
+}
+#mission img{
+    height:200px;
+    margin-left:12%;
+}
+#mission-header{
+    text-align:center;
+}
+#mission-content {
+    padding: 2%;
+}
+#vision{
+    float:right;
+    width:50%;
+    height:50%;
+    background-color:aliceblue;
+    border-radius:10px;
+    padding-bottom: 1.2%;
+}
+#vision img{
+    height:200px;
+    margin-left:12%;
+}
+#vision-header{
+    text-align:center;
+}
+#vision-content {
+    padding: 2%;
+}
+#values{
+    height:50%;
+    margin-top:0;
+    padding-left:19%;
+    padding-right:5%;
+    clear:right;
+} 
+
+
+
+#social-content{
+    padding:0 0 0 38%;
+}
+#principle{
+    height:50%;
+    padding-left:5%;
+}
+
+
+#gallery {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #DCC7AA;
+}
+
+.table-gallery img:nth-child(1){
+float:left;
+
+}	
+
+.table-gallery img:nth-child(2){
+
+}
+
+
+.table-gallery img:nth-child(3){
+float:right;
+
+}
+
+.img-circle {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1%;
+    height: 250px;
+    width: 300px;
+}
+
+#galo {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 0 0 0 10%;
+}
+
+#danzel,
+#patricia {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 0 0 0 10%;
+}
+
+#angelo {
+    display: inline-block;
+    width: 21.5%;
+    float: right;
+    margin: 10% 25% 0 0%;
+}
+
+#miguel {
+    display: inline-block;
+    width: 23%;
+    float: left;
+    margin: 10% 0 0 20%;
+}
+
+#galo-pic,
+#danzel-pic,
+#patricia-pic {
+    width: 100%;
+    height: 10%;
+}
+
+#miguel-pic {
+    width: 100%;
+    height: 10%;
+}
+
+#angelo-pic {
+    width: 100%;
+    height: 10%;
+}
+
