@@ -235,7 +235,7 @@ nav li a:hover{
 }
 
 #values {
-    padding:  80px;
+    padding: 50px 80px;
     text-align: center;
     background-color: #DCC7AA;
 }
@@ -250,7 +250,7 @@ nav li a:hover{
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1%;
-    height: 250px;s
+    height: 250px;
     width: 300px;
 }
 
@@ -265,8 +265,6 @@ nav li a:hover{
     font-size: 20px;
     margin: 0 0 0 3%
 }
-
-
 
 #join {
     padding: 50px 80px;
