@@ -4,3 +4,30 @@ find the link then press ESC+ENTER
 to untar a tar file --> tar -xvf file.tar
 to untar a tar.gz file --> tar 0xzvf file.tar.gz
 to untar a tar.bz2 file --> tar -xjvf
+
+
+==============================Content Negotiation=============
+Just add in the config file
+AddLanguage en .en
+AddLanguage fil .fil
+
+<Directory (directory of the website >
+	Options +MultiViews
+</Directory>
+
+Example:
+				<VirtualHost .....>
+
+					....
+					....
+					...
+					AddLanguage en .en
+					AddLanguage fil .fil
+
+					<Directory .....>
+						Options +MultiViews
+					</Directory>
+
+				</VirtualHost>
+
+==============================================================
