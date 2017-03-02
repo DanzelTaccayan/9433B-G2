@@ -1,0 +1,6 @@
+to downlaod link from w3m
+-> sudo w3m 192.1.1.1./test/asa.html (goes to site)
+find the link then press ESC+ENTER
+to untar a tar file --> tar -xvf file.tar
+to untar a tar.gz file --> tar 0xzvf file.tar.gz
+to untar a tar.bz2 file --> tar -xjvf
