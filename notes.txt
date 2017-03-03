@@ -39,3 +39,57 @@ gawa ng dir lalagyanan ng certificate at key ----> sudo mkdir /etc/apache2/ssl
 generate ng ssl certification ------> sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
 gayahin niyo na lang yung se .conf file 
 ===============================================================
+User Authentication/Authorization
+- enable the following modules.
+	allowmethods.conf
+	access_compat.load
+	auth_basic.load
+	authn_core.load
+- gawa ng dummy file sa /var/www/webtek.access.org
+- punta ng /etc/apache2
+- type: sudo htpasswd -c /etc/apache2/.htpasswd <username> * yung -c para lang sa first user
+- cat /etc/apache2/.htpasswd *para makita kung nagawa yung account niyo
+- punta ng sites-available
+- tapos lagay ito
+<Directory "/var/www/webtek.access.org">
+		Allow from *.org *.edu
+		AuthType Basic
+		AuthName "Restricted Content"
+		AuthUserFile /etc/apache2/.htpasswd
+		AllowMethods GET HEAD POST
+		<Limit POST>	
+			Require valid-user
+		</Limit>
+		
+</Directory> 
+- restart, tapos buksan fiddler punta kayo sa composer. test niyo yung ibang methods kaysa dun sa 3 dapat lalabas 405 method not allowed
+- sa POST, http://<idnumber>:<idnumber>@webtek.access.org
+***di nagpapakita yung username at password na authentication sa browser dahil dun sa <Limit POST>. pero kung gusto
+ipakita yung authentication, pag nag fiddler, lalabas na unauthorized pag nag GET AT HEAD sa webtek.access.org***
+================================================================
+SSI
+- enable niyo mga to
+	include.load
+	cgi.load
+	expires.load
+- gawa kayo 2 files sa /var/www/webtek.ssi.org, file1.html at file2.shtml
+- sa .html, lagay lang kayo kahit hello world na naka <h1> tags
+- sa .shtml na file eto laman niya:
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="UTF-8*">
+		<title>webtek.ssi.org</title>
+	</head>
+	<body>
+		<h1><!--#echo var="DATE_LOCAL"--></h1>
+		<h2><!--#include file="file.html"--></h2>
+	</body>
+</html>
+- tapos sa .conf file, eto lagay niyo
+<Directory "/var/www/webtek.ssi.org">
+		Options +Includes
+		AddType text/html .shtml
+		AddOutputFilter INCLUDES .shtml
+		XBitHack on
+</Directory>
