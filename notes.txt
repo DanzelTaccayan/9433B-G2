@@ -31,3 +31,11 @@ Example:
 				</VirtualHost>
 
 ==============================================================
+
+==========================HTTPS===============================
+enable module ---> sudo a2enmod ssl
+restart muna ----> sudo service apache2 restart
+gawa ng dir lalagyanan ng certificate at key ----> sudo mkdir /etc/apache2/ssl
+generate ng ssl certification ------> sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
+gayahin niyo na lang yung se .conf file 
+===============================================================
